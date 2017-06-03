@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/songShow.css">
+	<title>TIMEsongShow</title>
+</head>
+<body>
+	<header>
+		<div id="top1">
+			<div class="center">
+				<div class="logo">
+					<img src="image/logo.png" alt="">
+				</div>
+				<ul>
+					<li><a href="">发现音乐</a></li>
+					<li><a href="">我的音乐</a></li>
+					<li><a href="">朋友</a></li>
+					<li><a href="">下载客户端</a></li>
+				</ul>
+				<div class="search">
+					<input type="text" class="text" placeholder="单曲/歌手/专辑/歌单/MV/用户">
+					<button class="button">搜索</button>
+				</div>
+			</div>
+		</div>
+		<div id="top2">
+			<div class="nav">
+				<ul>
+					<li><a href="index.html">推荐</a></li>
+					<li><a href="list.html">排行榜</a></li>
+					<li><a href="songSheet.html">歌单</a></li>
+					<li><a href="anchorStation.html">主播台</a></li>
+					<li><a href="singer.html">歌手</a></li>
+					<li><a href="newDvd.html">新碟上架</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div id=main>
+			<div id="left">
+				
+			</div>
+			<div id="right">
+				<div class="top">
+					<h2>相关推荐</h2>
+				</div>
+				<div class="main">
+					<figure>
+						<img src="image/songShowRight1.jpg" alt="">
+						<figcaption>
+							<a href="">【日系民谣】花千树，恋恋风歌</a>
+							<a href=""><p>by 花碳快跟我百合</p></a>
+						</figcaption>	
+					</figure>
+					<figure>
+						<img src="image/songShowRight2.jpg" alt="">
+						<figcaption>
+							<a href="">【校园/纯爱】淡淡的青春</a>
+							<a href=""><p>by 暖暖还在这里</p></a>
+						</figcaption>	
+					</figure>
+					<figure>
+						<img src="image/songShowRight1.jpg" alt="">
+						<figcaption>
+							<a href="">【日系民谣】花千树，恋恋风歌</a>
+							<a href=""><p>by 暖暖还在这里  </p></a>
+						</figcaption>	
+					</figure>
+					<figure>
+						<img src="image/songShowRight1.jpg" alt="">
+						<figcaption>
+							<a href="">【日系民谣】花千树，恋恋风歌</a>
+							<a href=""><p>by 花碳快跟我百合</p></a>
+						</figcaption>	
+					</figure>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div id="footer">
+		<div class="main">
+			<div class="left">
+				<h2>合作伙伴</h2>
+				<ul>
+					<li>网易云音乐</li>
+					<li>qq音乐</li>
+					<li>酷狗音乐</li>
+				</ul>
+			</div>
+			<div class="center">
+				<h2>联系方式</h2>
+				<ul>
+					<li>qq:123456789</li>
+					<li>新浪微博：123456789@qq.com</li>
+					<li>微信：123456</li>
+				</ul>
+			</div>
+
+			<div class="right">
+			<div class="right1">
+				<p>关于TIME- 客户服务- 服务条款- 网站导航 TIM公司版权所有©2015-2016网络文化经营许可证：文[2016]0155-055号意见反馈</p>
+			</div>				
+			</div>
+		</div>
+		</div>
+	</footer>
+</body>
+</html>
+<script>
+	var url=window.location.href;
+	var str=url.split('?');
+	var action=str[1].split('=');
+	var content=document.getElementById('left');
+	if(action[1]==1){
+	left.innerHTML="<img src='image/songShow1.JPG'><h2>【纯真小调】祝你永远活的像个孩子</h2><p>介绍：小时候，幸福是一件简单的事情<br>流年偷换，步履匆匆<br>希望有一种声音，可以带你重拾最简单的快乐。<br><br>祝你有深情的朋友<br>祝你有厉害的对手<br>祝你抬头总是暖阳<br>祝你不用再见，拥抱...</p><ul><li>歌曲列表</li><li>播放：12536664</li></ul><table><tr><th></th><th>播放</th><th>歌曲标题</th><th>时长</th><th>歌手</th><th>专辑</th></tr><tr height='30px'><td>1</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>Sunshine</a></td><td>03:52</td><td>moumoon</td><td>Sunshine Girl</td></tr><tr height='30px'><td>2</td><td><embed src='music/みんなの太陽系.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>みんなの太陽系</a></td><td>01:30</td><td>つじあやの</td><td>みんなの太陽系</td></tr><tr height='30px'><td>3</td><td><embed src='music/人生讃歌.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>人生讃歌</a></td><td>02:48</td><td>茶色坚果...</td><td>Bewitched!</td></tr><tr height='30px'><td>4</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>LA･LA･LA･LOVE SONG</a></td><td>04:52</td><td>大橋トリオ</td><td>FAKE BOOK III</td></tr><tr height='30px'><td>5</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>风になる</a></td><td>04:38</td><td>つじあやの</td><td>恋恋风歌</td></tr><tr height='30px'><td>6</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>日和</a></td><td>04:55</td><td>Canappeco</td><td>misora sketch</td></tr><tr height='30px'><td>7</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>Day by day</a></td><td>04:57</td><td>川嶋あい</td><td>24/24</td></tr><tr height='30px'><td>8</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>小さな恋のうた</a></td><td>04:09</td><td>ダイアナ</td><td>COVER☆GIRL</td></tr><tr height='30px'><td>9</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>life×life×life </a></td><td>04:38</td><td>スキマスイッチ</td><td>スキマスイッチ</td></tr><tr height='30px'><td>10</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>You & Me </a></td><td>03:38</td><td>Rie fu/紗希</td><td>You & Me</td></tr><tr height='30px'><td>11</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>月が泣いてる</a></td><td>02:24</td><td>つじあやの</td><td>恋恋风歌</td></tr></table>";
+	}
+	if(action[1]==2){
+	left.innerHTML="<img src='image/songShow2.JPG'><h2>毕业季，说好的不哭泣，然而我们却 </h2><p>介绍：小时候，幸福是一件简单的事情<br>流年偷换，步履匆匆<br>希望有一种声音，可以带你重拾最简单的快乐。<br><br>祝你有深情的朋友<br>祝你有厉害的对手<br>祝你抬头总是暖阳<br>祝你不用再见，拥抱...</p><ul><li>歌曲列表</li><li>播放：12536664</li></ul><table><tr><th></th><th>播放</th><th>歌曲标题</th><th>时长</th><th>歌手</th><th>专辑</th></tr><tr height='30px'><td>1</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>Sunshine</a></td><td>03:52</td><td>moumoon</td><td>Sunshine Girl</td></tr><tr height='30px'><td>2</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>みんなの太陽系</a></td><td>01:30</td><td>つじあやの</td><td>みんなの太陽系</td></tr><tr height='30px'><td>3</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>人生讃歌</a></td><td>02:48</td><td>茶色坚果...</td><td>Bewitched!</td></tr><tr height='30px'><td>4</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>LA･LA･LA･LOVE SONG</a></td><td>04:52</td><td>大橋トリオ</td><td>FAKE BOOK III</td></tr><tr height='30px'><td>5</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>风になる</a></td><td>04:38</td><td>つじあやの</td><td>恋恋风歌</td></tr><tr height='30px'><td>6</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>日和</a></td><td>04:55</td><td>Canappeco</td><td>misora sketch</td></tr><tr height='30px'><td>7</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>Day by day</a></td><td>04:57</td><td>川嶋あい</td><td>24/24</td></tr><tr height='30px'><td>8</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>小さな恋のうた</a></td><td>04:09</td><td>ダイアナ</td><td>COVER☆GIRL</td></tr><tr height='30px'><td>9</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>life×life×life </a></td><td>04:38</td><td>スキマスイッチ</td><td>スキマスイッチ</td></tr><tr height='30px'><td>10</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>You & Me </a></td><td>03:38</td><td>Rie fu/紗希</td><td>You & Me</td></tr><tr height='30px'><td>11</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>月が泣いてる</a></td><td>02:24</td><td>つじあやの</td><td>恋恋风歌</td></tr></table>";
+	}
+	if(action[1]==3){
+	left.innerHTML="<img src='image/songShow3.JPG'><h2>电台节目·我瞒着所有人继续爱你。 </h2><p>介绍：小时候，幸福是一件简单的事情<br>流年偷换，步履匆匆<br>希望有一种声音，可以带你重拾最简单的快乐。<br><br>祝你有深情的朋友<br>祝你有厉害的对手<br>祝你抬头总是暖阳<br>祝你不用再见，拥抱...</p><ul><li>歌曲列表</li><li>播放：12536664</li></ul><table><tr><th></th><th>播放</th><th>歌曲标题</th><th>时长</th><th>歌手</th><th>专辑</th></tr><tr height='30px'><td>1</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>Sunshine</a></td><td>03:52</td><td>moumoon</td><td>Sunshine Girl</td></tr><tr height='30px'><td>2</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>みんなの太陽系</a></td><td>01:30</td><td>つじあやの</td><td>みんなの太陽系</td></tr><tr height='30px'><td>3</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>人生讃歌</a></td><td>02:48</td><td>茶色坚果...</td><td>Bewitched!</td></tr><tr height='30px'><td>4</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>LA･LA･LA･LOVE SONG</a></td><td>04:52</td><td>大橋トリオ</td><td>FAKE BOOK III</td></tr><tr height='30px'><td>5</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>风になる</a></td><td>04:38</td><td>つじあやの</td><td>恋恋风歌</td></tr><tr height='30px'><td>6</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>日和</a></td><td>04:55</td><td>Canappeco</td><td>misora sketch</td></tr><tr height='30px'><td>7</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>Day by day</a></td><td>04:57</td><td>川嶋あい</td><td>24/24</td></tr><tr height='30px'><td>8</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>小さな恋のうた</a></td><td>04:09</td><td>ダイアナ</td><td>COVER☆GIRL</td></tr><tr height='30px'><td>9</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>life×life×life </a></td><td>04:38</td><td>スキマスイッチ</td><td>スキマスイッチ</td></tr><tr height='30px'><td>10</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>You & Me </a></td><td>03:38</td><td>Rie fu/紗希</td><td>You & Me</td></tr><tr height='30px'><td>11</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>月が泣いてる</a></td><td>02:24</td><td>つじあやの</td><td>恋恋风歌</td></tr></table>";
+	}
+	if(action[1]==4){
+	left.innerHTML="<img src='image/songShow4.JPG'><h2>【另类民谣】-流浪诗人与孤独的心 </h2><p>介绍：小时候，幸福是一件简单的事情<br>流年偷换，步履匆匆<br>希望有一种声音，可以带你重拾最简单的快乐。<br><br>祝你有深情的朋友<br>祝你有厉害的对手<br>祝你抬头总是暖阳<br>祝你不用再见，拥抱...</p><ul><li>歌曲列表</li><li>播放：12536664</li></ul><table><tr><th></th><th>播放</th><th>歌曲标题</th><th>时长</th><th>歌手</th><th>专辑</th></tr><tr height='30px'><td>1</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>Sunshine</a></td><td>03:52</td><td>moumoon</td><td>Sunshine Girl</td></tr><tr height='30px'><td>2</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>みんなの太陽系</a></td><td>01:30</td><td>つじあやの</td><td>みんなの太陽系</td></tr><tr height='30px'><td>3</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>人生讃歌</a></td><td>02:48</td><td>茶色坚果...</td><td>Bewitched!</td></tr><tr height='30px'><td>4</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>LA･LA･LA･LOVE SONG</a></td><td>04:52</td><td>大橋トリオ</td><td>FAKE BOOK III</td></tr><tr height='30px'><td>5</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>风になる</a></td><td>04:38</td><td>つじあやの</td><td>恋恋风歌</td></tr><tr height='30px'><td>6</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>日和</a></td><td>04:55</td><td>Canappeco</td><td>misora sketch</td></tr><tr height='30px'><td>7</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>Day by day</a></td><td>04:57</td><td>川嶋あい</td><td>24/24</td></tr><tr height='30px'><td>8</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>小さな恋のうた</a></td><td>04:09</td><td>ダイアナ</td><td>COVER☆GIRL</td></tr><tr height='30px'><td>9</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>life×life×life </a></td><td>04:38</td><td>スキマスイッチ</td><td>スキマスイッチ</td></tr><tr height='30px'><td>10</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>You & Me </a></td><td>03:38</td><td>Rie fu/紗希</td><td>You & Me</td></tr><tr height='30px'><td>11</td><td><embed src='music/Sunshine.mp3' autostart='false' loop='false' width='50' height='30'></embed></td><td><a href=''>月が泣いてる</a></td><td>02:24</td><td>つじあやの</td><td>恋恋风歌</td></tr></table>";
+	}
+	if(action[1]==5){
+	left.innerHTML="<img src ='1.jpg'>";
+	}
+	if(action[1]==6){
+	left.innerHTML="<img src ='1.jpg'>";
+	}
+	if(action[1]==7){
+	left.innerHTML="<img src ='1.jpg'>";
+	}
+	if(action[1]==8){
+	left.innerHTML="<img src ='1.jpg'>";
+	}
+</script>
